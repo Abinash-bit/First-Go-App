@@ -9,7 +9,7 @@ func main() {
 	args := os.Args
 
 	if len(args) < 2 {
-		fmt.Printf("Usage: ./hello-world <argument>\n")
+		fmt.Printf("Usage: ./http-get <url>\n")
 		os.Exit(1)
 
 	}
