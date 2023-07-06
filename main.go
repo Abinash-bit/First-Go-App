@@ -7,6 +7,6 @@ import (
 
 func main() {
 	args := os.Args
-	fmt.Println("Hello World")
+	fmt.Printf("Hello World\nArguments: %v\n", args)
 
 }
